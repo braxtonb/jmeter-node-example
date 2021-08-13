@@ -4,7 +4,7 @@
 
 An example project that utilizes JMeter to simulate client requests for an Express.js server.
 
-## Getting Started (MacOs instructions)
+## Getting Started (macOS instructions)
 
 **JMeter**
 
