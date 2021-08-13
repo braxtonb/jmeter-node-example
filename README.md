@@ -24,7 +24,18 @@ ln -s ~/Downloads/apache-jmeter-5.4.1/bin/jmeter /usr/local/bin/jmeter
 3. To create a production build, `npm run build`
 4. To run a production build, `npm start`
 
-## Load Testing Example
+## Load Testing
+
+### Running Tests
+
+1. To start a load test, ensure the Express server is running.
+2. Run one of the shell scripts in the `scripts` directory.
+3. Monitor and observe any of the following:
+    * JMeter CSV report files in `reports` directory
+    * Output logs in `logs/jmeter.log`
+    * Express server logs in its running terminal
+
+### Example
 
 https://user-images.githubusercontent.com/13091519/129402961-9036b179-b2be-41fc-a940-448e99567ef2.mov
 
@@ -32,3 +43,4 @@ https://user-images.githubusercontent.com/13091519/129402961-9036b179-b2be-41fc-
 
 * [JMeter getting started](https://jmeter.apache.org/usermanual/get-started.html)
 * [JMeter Parameterization - The Complete Guide by BlazeMeter](https://www.blazemeter.com/blog/jmeter-parameterization-the-complete-guide)
+* [Visual Studio Code Data Preview extension](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.vscode-data-preview)
