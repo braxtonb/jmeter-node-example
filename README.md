@@ -29,9 +29,9 @@ ln -s ~/Downloads/apache-jmeter-5.4.1/bin/jmeter /usr/local/bin/jmeter
 ### Running Tests
 
 1. To start a load test, ensure the Express server is running.
-2. Run one of the shell scripts in the `scripts` directory.
+2. Run one of the shell scripts in the `scripts` directory. May require a `chmod` to change file permissions to execute the shell scripts.
 3. Monitor and observe any of the following:
-    * JMeter CSV report files in `reports` directory
+    * JMeter CSV report files in the `reports` directory
     * Output logs in `logs/jmeter.log`
     * Express server logs in its running terminal
 
