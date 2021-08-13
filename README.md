@@ -8,9 +8,8 @@ An example project that utilizes JMeter to simulate client requests for an Expre
 
 **JMeter**
 
-Install [JMeter](https://jmeter.apache.org/download_jmeter.cgi)
-
-Symlink jmeter to your `/usr/local/bin/` directory
+1. Install [JMeter](https://jmeter.apache.org/download_jmeter.cgi)
+2. Symlink jmeter to your `/usr/local/bin/` directory
 
 ```shell
 ln -s ~/Downloads/apache-jmeter-5.4.1/bin/jmeter /usr/local/bin/jmeter
