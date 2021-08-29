@@ -2,3 +2,5 @@ node_modules
 dist
 logs
 media
+reports
+.DS_Store

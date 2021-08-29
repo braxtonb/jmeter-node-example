@@ -1,0 +1,38 @@
+{
+  "name": "jmeter-node-example",
+  "version": "1.0.0",
+  "description": "An example project that utilizes JMeter to simulate client requests for an Express.js server.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "make-dir reports/{fetch-player-by-id,fetch-player-index}",
+    "jmeter:simulate:player:id": "./scripts/simulate-fetch-player-by-id.sh",
+    "jmeter:simulate:player:index": "./scripts/simulate-fetch-player-index.sh",
+    "view:report:player:id": "open-cli ./reports/fetch-player-by-id/index.html",
+    "view:report:player:index": "open-cli ./reports/fetch-player-index/index.html",
+    "ntl": "ntl -o"
+  },
+  "ntl": {
+    "descriptions": {
+      "jmeter:simulate:player:id": "Simulate fetch-player-by-id requests",
+      "jmeter:simulate:player:index": "Simulate fetch-player-index requests",
+      "view:report:player:id": "View fetch-player-by-id report in browser",
+      "view:report:player:index": "View fetch-player-index report in browser"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/braxtonb/jmeter-node-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/braxtonb/jmeter-node-example/issues"
+  },
+  "homepage": "https://github.com/braxtonb/jmeter-node-example#readme",
+  "devDependencies": {
+    "make-dir-cli": "^3.0.0",
+    "ntl": "^5.1.0",
+    "open-cli": "^7.0.0"
+  }
+}
